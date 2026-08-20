@@ -1,4 +1,4 @@
-# Phishing-Resistance Lab dependencies
+# Smishing-Resistance Lab dependencies
 # Install into a virtualenv:
 #   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 

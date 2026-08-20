@@ -1,4 +1,4 @@
-# 🔐 Phishing-Resistance Lab
+# 🔐 Smishing-Resistance Lab
 
 > A hands-on lab that **demonstrates why SMS one-time passwords fall to real-time phishing — and proves, with real cryptography, why passkeys (WebAuthn/FIDO2) don't.**
 
@@ -67,7 +67,7 @@ sequenceDiagram
 ## 📦 Project structure
 
 ```
-phishing-resistance-lab/
+smishing-resistance-lab/
 ├── attack/                     # The offense: why SMS OTP falls
 │   ├── real_service.py         #   legitimate "SecureBank" (issues OTP)
 │   ├── phishing_relay.py       #   adversary-in-the-middle relay
@@ -89,8 +89,8 @@ phishing-resistance-lab/
 ## 🚀 Quick start
 
 ```bash
-git clone https://github.com/yehiasamir27/phishing-resistance-lab.git
-cd phishing-resistance-lab
+git clone https://github.com/yehiasamir27/smishing-resistance-lab.git
+cd smishing-resistance-lab
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```

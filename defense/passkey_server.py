@@ -9,7 +9,7 @@ industry-standard `py_webauthn` library for the server side and the native
 `navigator.credentials` API for the browser side.
 
 Run (inside the lab venv so py_webauthn is on the path):
-    cd ~/phishing-resistance-lab
+    cd ~/smishing-resistance-lab
     .venv/bin/python passkey_server.py
 
 Then open  http://localhost:5000  in your browser.
