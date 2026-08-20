@@ -1,0 +1,8 @@
+# Phishing-Resistance Lab dependencies
+# Install into a virtualenv:
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+
+Flask>=3.0          # local demo web servers (attack + passkey)
+requests>=2.31      # attacker relay -> real service HTTP calls
+webauthn>=3.0       # py_webauthn: real WebAuthn/FIDO2 relying-party verification
+cryptography>=42.0  # ECDSA P-256 used by the simulated authenticator
